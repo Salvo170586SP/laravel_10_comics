@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin-left: 20px;
+}
+header .search {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+header .search input {
+  border: 0;
+  border-bottom: 2px solid #0282F9;
+}
+
+#jumbotron {
+  background-image: url("../img/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 390px;
+}
+
+#box-card {
+  background-color: #1C1C1C;
+  padding: 50px 0;
+  color: white;
+  position: relative;
+}
+#box-card .d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#box-card .series {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #0282F9;
+  position: absolute;
+  left: 400px;
+  top: -25px;
+}
+#box-card .card {
+  width: 16.6666666667%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+#box-card .card figure {
+  height: 150px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#box-card .card figure a {
+  padding: 0;
+}
+#box-card .card figure a img {
+  max-width: 100%;
+}
+#box-card a {
+  background-color: #0282F9;
+  color: white;
+  padding: 10px 20px;
+}
+
+#options {
+  background-color: #0282F9;
+  color: white;
+  padding: 20px;
+}
+#options .box-options {
+  display: flex;
+}
+#options .box-options .item-icon {
+  display: flex;
+  align-items: center;
+}
+#options .box-options .item-icon figure {
+  width: 50px;
+  margin: 0 20px;
+}
+#options .box-options .item-icon figure img {
+  max-width: 100%;
+}
+#options .box-options .item-icon span {
+  font-size: 0.9rem;
+}
+
+footer .footer-top {
+  height: 400px;
+  background-image: url("../img/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+footer .footer-top a {
+  color: #797979;
+}
+footer .footer-top li {
+  margin-bottom: 5px;
+}
+footer .footer-top h3 {
+  margin: 10px 0;
+}
+footer .footer-top .menu-site {
+  display: flex;
+  padding: 50px 0;
+}
+footer .footer-top .menu-site .left-menu {
+  margin-right: 50px;
+}
+footer .footer-bottom {
+  height: 100px;
+  background-color: #303030;
+  padding: 20px 0;
+  color: #0282F9;
+}
+footer .footer-bottom .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-bottom a {
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+}
+footer .footer-bottom .social {
+  display: flex;
+  align-items: center;
+}
+footer .footer-bottom .social h4 {
+  margin-right: 10px;
+}
+footer .footer-bottom .social a {
+  border: 0;
+  padding: 0 5px;
+}
+footer .footer-bottom .social img {
+  margin-right: 10px;
+}
+
+#title-card {
+  height: 100px;
+  background-color: #0282F9;
+  position: relative;
+}
+#title-card img {
+  border: 1px solid white;
+  position: absolute;
+  left: 445px;
+  bottom: 30px;
+}
+
+#comic {
+  padding: 80px 0;
+}
+#comic .box-comic {
+  display: flex;
+}
+#comic .box-comic .info-comic {
+  width: 70%;
+  padding: 0 35px;
+}
+#comic .box-comic .info-comic h2 {
+  margin-bottom: 20px;
+  color: #003f5e;
+}
+#comic .box-comic .info-comic .buy {
+  height: 50px;
+  background-color: #55ba59;
+  margin-bottom: 20px;
+  border-bottom: 1px solid red;
+  display: flex;
+}
+#comic .box-comic .info-comic .buy .price {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #bafd91;
+  padding: 10px;
+}
+#comic .box-comic .info-comic .buy .price .price-item {
+  color: white;
+}
+#comic .box-comic .info-comic .buy .check {
+  border-left: 1px solid red;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  color: white;
+}
+#comic .box-comic .img-comic {
+  width: 30%;
+  text-align: end;
+}
+
+#detail-comic {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+}
+#detail-comic .d-flex {
+  display: flex;
+}
+#detail-comic .d-flex .talent {
+  width: 50%;
+  padding: 0 25px;
+}
+#detail-comic .d-flex .talent .talent-item {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid #E3E3E3;
+  padding: 10px 0;
+}
+#detail-comic .d-flex .talent .talent-item span {
+  width: 100%;
+  font-size: 13px;
+}
+#detail-comic .d-flex .talent .talent-item p {
+  color: #0282F9;
+  text-align: justify;
+}
+#detail-comic .d-flex .specs {
+  width: 50%;
+  padding: 0 25px;
+}
+#detail-comic .d-flex .specs .specs-item {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid #E3E3E3;
+  padding: 5px 0;
+}
+#detail-comic .d-flex .specs .specs-item span {
+  width: 30%;
+  font-size: 13px;
+}
+#detail-comic .option-item {
+  border-top: 1px solid #E3E3E3;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+#detail-comic .option-item .item-icon {
+  display: flex;
+  color: #9F9F9F;
+  padding: 10px 20px;
+  border: 1px solid #E3E3E3;
+  font-weight: bold;
+  font-size: 13px;
+}
+#detail-comic .option-item .item-icon figure {
+  width: 40px;
+  margin-left: 80px;
+}
+#detail-comic .option-item .item-icon figure img {
+  max-width: 100%;
+  background-color: #D8D8D8;
+}
