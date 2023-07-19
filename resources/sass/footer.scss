@@ -1,7 +1,6 @@
 footer{
-    .footer-top{
-        height: 400px;
-        background-image: url('../../public/img/footer-bg.jpg');
+     .footer-top{
+        background-image: url('http://www.spfullstak.it/sito/public/comics/public/img/footer-bg.jpg');
         background-position: center;
         background-size: cover;
         color: $white;
@@ -25,17 +24,11 @@ footer{
     }
 
     .footer-bottom{
-        height: 100px;
         background-color: $dark-grey;
         padding: 20px 0;
 
         color: $primary;
         
-        .d-flex{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
         a{
             color: $white;
             padding: 20px;
